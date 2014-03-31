@@ -73,7 +73,7 @@ setup(
     scripts=['bin/diamond', 'bin/diamond-setup'],
     data_files=data_files,
     install_requires=[
-        'python-configobj', 'psutil', ],
+        'configobj', 'psutil', ],
     #test_suite='test.main',
     ** setup_kwargs
 )
